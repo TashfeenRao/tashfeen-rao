@@ -9,8 +9,8 @@ jQuery(document).ready(function($) {
 	"use strict";
 
 	
-	// $(".loader").delay(1000).fadeOut("slow");
- //  $("#overlayer").delay(1000).fadeOut("slow");	
+	 $(".loader").delay(1000).fadeOut("slow");
+  $("#overlayer").delay(1000).fadeOut("slow");	
   
 
 	var siteMenuClone = function() {
@@ -164,7 +164,7 @@ jQuery(document).ready(function($) {
 	    center: false,
 	    items: 1,
 	    loop: true,
-			stagePadding: 0,
+		stagePadding: 0,
 	    margin: 0,
 	    smartSpeed: 1000,
 	    autoplay: true,
