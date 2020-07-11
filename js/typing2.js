@@ -3,5 +3,5 @@ const typed2 = new Typed('.typing2', {
     typeSpeed: 35,
     backSpeed: 35,
     loop: false,
-    startDelay: 2500
+    startDelay: 7000
   });

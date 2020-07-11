@@ -128,9 +128,9 @@ body:after {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      padding: 3em 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 1em 0; }
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -906,7 +906,7 @@ body:after {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
 }
 
 .project-container:hover .project-description {
@@ -917,4 +917,7 @@ body:after {
   flex-direction: column;
   align-items: center;
   padding-left: 5px;
+}
+.home-bg {
+  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
 }
